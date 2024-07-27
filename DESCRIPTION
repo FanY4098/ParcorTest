@@ -1,0 +1,18 @@
+Package: ParcorTest
+Type: Package
+Title: Model-Free Inference for Characterizing Protein Mutations through a Co-evolutionary Lens
+Version: 0.1.0
+Author@R: c(
+    person("Fan", "Yang", email = "ffy1@pitt.edu", role = c("aut", "cre")),
+    person("Zhao", "Ren", role = "aut"),
+    person("Wen", "Zhou", role = "aut"),
+    person("Kejue", "Jia", role = "aut"),
+    person("Robert", "Jernigan", role = "aut"))
+Maintainer: Fan Yang <ffy1@pitt.edu>
+Description: The package implements a spectrum-based statistic to test if two positions along                   the protein sequence are partially correlated or not.
+License: GPL (>= 2)
+Imports: MSGLasso, pracma, coop
+Remotes: FanY4098/MSGLasso
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
