@@ -9,7 +9,7 @@ Author@R: c(
     person("Kejue", "Jia", role = "aut"),
     person("Robert", "Jernigan", role = "aut"))
 Maintainer: Fan Yang <ffy1@pitt.edu>
-Description: The package implements a spectrum-based statistic to test if two positions along                   the protein sequence are partially correlated or not.
+Description: The package implements a spectrum-based statistic to test if two positions along the protein sequence are partially correlated or not.
 License: GPL (>= 2)
 Imports: MSGLasso, pracma, coop
 Remotes: FanY4098/MSGLasso
