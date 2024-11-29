@@ -18,7 +18,7 @@ library(ParcorTest)
 ```
 
 # Application on PF13560
-We illustrate the use of our package by testing if positions 1 and 2 of PF13560 form a contact (i.e., to test if the partial correlation is 0 or not.). It can be executed using the following codes.
+We illustrate the use of our package by testing if positions 1 and 2 of PF00502 form a contact (i.e., to test if the partial correlation is 0 or not.). It can be executed using the following codes.
 
 ```
 data(SixProteinFamilies)
