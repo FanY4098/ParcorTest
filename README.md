@@ -17,7 +17,7 @@ library(ParcorTest)
 ?TestLS
 ```
 
-# Application on PF13560
+# Application on PF00502
 We illustrate the use of our package by testing if positions 1 and 2 of PF00502 form a contact (i.e., to test if the partial correlation is 0 or not.). It can be executed using the following codes.
 
 ```
