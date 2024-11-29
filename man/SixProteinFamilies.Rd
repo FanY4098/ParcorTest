@@ -13,11 +13,4 @@
 }
 
 
-
-\author{Yanming Li, Bin Nan, Ji Zhu}
-
-\examples{
-data(Beta.m)
-}
-
 \keyword{datasets}
