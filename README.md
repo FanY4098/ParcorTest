@@ -34,7 +34,7 @@ allend=cumsum(Gsz) #ending position for each group
 allstart=allend+1
 allstart=c(1,allstart[-Gnm]) #starting position for each group
 
-y1=as.matrix(data[,allstart[1]:allend[1])
+y1=as.matrix(data[,allstart[1]:allend[1]])
 y2=as.matrix(data[,allstart[2]:allend[2]])
 x=data[,-c(allstart[1]:allend[1],allstart[2]:allend[2])]
 xGsz=Gsz[-c(1,2)]
