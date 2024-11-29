@@ -21,10 +21,10 @@ library(ParcorTest)
 We illustrate the use of our package by testing if positions 1 and 2 of PF13560 form a contact (i.e., to test if the partial correlation is 0 or not.). It can be executed using the following codes.
 
 ```
-load("SixProteinFamilies.RData")
+data(SixProteinFamilies)
 
 ##data preprocessing
-pre=OneHot_Protein(PF13560)
+pre=OneHot_Protein(PF00502)
 data=pre$data1hot
 Gsz=pre$Gsz
 
